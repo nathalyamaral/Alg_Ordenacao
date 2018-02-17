@@ -1,9 +1,4 @@
-/*
-Trabalho de Estrutura de Dados I (ordenacao de vetores)
-Academico:  Jhonathan Banczek
-Professor:  Ademir Martinez Sanches
-Data:   07/06/2010
-*/
+
 void selectionsort(int *v,int tam){
     int j,i,menor,aux;
     unsigned long int troca = 0,comp = 0;
@@ -17,7 +12,7 @@ void selectionsort(int *v,int tam){
                 menor=j;
             }
         }
-                //Coloca o menor na i-ésima posição
+                //Coloca o menor na i-Ã©sima posiÃ§Ã£o
                 aux = v[i];
                 v[i] = v[menor];
                 v[menor] = aux;
